@@ -134,13 +134,13 @@ ul li a:hover {
 .heading {
   display: flex;
   align-items: center;
-  flex-direction: column0;
+  flex-direction: column;
 }
 
 .heading h2 {
-  color: var(--second-color);
   font-size: 1.8rem;
-  border-bottom: 0.3rem var(--second-color);
+  color: var(--second-color);
+  border-bottom: 3px var(--second-color);
 }
 
 
@@ -150,3 +150,20 @@ ul li a:hover {
 }
 
 /* About Section */
+
+.About-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text {
+  max-width: 40rem;
+  text-align:  center;
+}
+
+.About-text h1 {
+  font-size: 1.5rem;
+  color: var(--second-color);
+}
