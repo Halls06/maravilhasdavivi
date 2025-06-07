@@ -26,7 +26,7 @@ section {
   min-height: 100vh;
   position: relative;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 /* Section menu */
@@ -42,7 +42,6 @@ nav {
   background: #fff;
   align-items: center;
   padding: 1rem 1.5625rem;
-  justify-content: space-between;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -95,7 +94,7 @@ ul li a:hover {
   font-size: 1rem;
   align-items: center;
   padding: 0.5rem 1rem;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
   display: inline-flex;
   text-decoration: none;
   transition: background 0.3s;
@@ -114,7 +113,7 @@ ul li a:hover {
 
 .social {
   left: 9rem;
-  bottom: 8%;
+  bottom: 2%;
   display: flex;
   position: absolute;
 }
@@ -154,6 +153,7 @@ ul li a:hover {
   gap: 1.2rem;
   display: flex;
   margin-top: 4rem;
+  flex-direction: column;
   align-items: flex-start;
 }
 
@@ -170,7 +170,8 @@ ul li a:hover {
 }
 
 .Horarios p {
-  font-size: 1.6rem;
+  font-size: 1rem;
+  margin: 1rem;
   font-weight: 700;
   color: var(--second-color);
 }
