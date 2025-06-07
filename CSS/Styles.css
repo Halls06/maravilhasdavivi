@@ -140,30 +140,37 @@ ul li a:hover {
 .heading h2 {
   font-size: 1.8rem;
   color: var(--second-color);
-  border-bottom: 3px var(--second-color);
+  border-bottom: 3px solid var(--second-color);
 }
 
-
 .heading p {
-  margin-top: 0.5rem;
   color: var(--second-color);
+  margin-top: 0.5rem;
 }
 
 /* About Section */
 
-.About-content {
+.container {
+  gap: 1.2rem;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
+  margin-top: 4rem;
+  align-items: flex-start;
 }
 
 .about-text {
-  max-width: 40rem;
-  text-align:  center;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
-.About-text h1 {
-  font-size: 1.5rem;
+.Horarios {
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.Horarios p {
+  font-size: 1.6rem;
+  font-weight: 700;
   color: var(--second-color);
 }
