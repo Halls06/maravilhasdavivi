@@ -35,5 +35,8 @@
       "source": "Git Bash"
     }
   },
-  "terminal.integrated.defaulProfile.windows": "Git Bash"
+  "terminal.integrated.defaulProfile.windows": "Git Bash",
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  }
 }

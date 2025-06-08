@@ -176,6 +176,10 @@ ul li a:hover {
   text-align: center;
 }
 
+.about-text p span {
+  color: var(--text-orange);
+}
+
 .sab span {
   color: var(--main-color);
 }
@@ -198,7 +202,6 @@ ul li a:hover {
 }
 
 @media (min-width: 768px) {
-  
   #Home {
     width: 100%;
     display: flex;
@@ -208,14 +211,13 @@ ul li a:hover {
     align-items: center;
     justify-content: center;
   }
-  
-  
+
   .container {
     flex-direction: row;
     align-items: flex-start;
   }
 
-  .about-text p{
+  .about-text p {
     font-size: 1.3rem;
   }
 
