@@ -91,21 +91,10 @@ ul li a:hover {
   width: 28rem;
   height: 28rem;
   display: flex;
-  margin-top: 7rem;
+  margin-top: 4rem;
   align-items: center;
   justify-content: center;
 }
-
-.Home-text h1 {
-  color: var(--second-color);
-  font-weight: 700;
-  font-size: 3.5rem;
-  line-height: 5.5rem;
-  margin-bottom: 2.5rem;
-  text-align: cente;
-}
-
-
 
 .button {
   border: none;
