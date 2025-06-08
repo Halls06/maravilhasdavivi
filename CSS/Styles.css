@@ -1,5 +1,5 @@
 :root {
-  --main-color: #ff006e;
+  --main-color: #fcdfaf;
   --second-color: #0d1b2a;
   --text-orange: #00b4d8;
   --color-whatsap: #09ff00;
@@ -27,6 +27,7 @@ section {
   position: relative;
   align-items: center;
   justify-content: center;
+  background: var(--main-color);
 }
 
 /* Section menu */
@@ -41,8 +42,17 @@ nav {
   transition: 0.5s;
   background: #fff;
   align-items: center;
-  padding: 1rem 1rem;
+  padding: 2.6rem 2.6rem;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+}
+
+.logo img{
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  margin-top: -2.8rem;
+  position: absolute;
+  justify-content: center;
 }
 
 ul {
@@ -71,8 +81,18 @@ ul li a:hover {
 /* Section Home */
 
 .Home-text {
-  max-height: 31.25rem;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Home-text img {
+  width: 28rem;
+  height: 28rem;
+  display: flex;
+  margin-top: 7rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .Home-text h1 {
@@ -84,21 +104,22 @@ ul li a:hover {
   text-align: cente;
 }
 
-.Home-text span {
-  color: var(--main-color);
-}
+
 
 .button {
   border: none;
   color: #fff;
   font-size: 1rem;
+  font-weight: 700;
+  margin-top: 35rem;
+  position: absolute;
   align-items: center;
   padding: 0.5rem 1rem;
   border-radius: 0.8rem;
   display: inline-flex;
   text-decoration: none;
   transition: background 0.3s;
-  background: var(--color-whatsap);
+  background: var(--color-whatsapp-dark);
 }
 
 .button:hover {
@@ -139,6 +160,7 @@ ul li a:hover {
 .heading h2 {
   font-size: 1.8rem;
   color: var(--second-color);
+  margin-bottom: 0.06rem;
   border-bottom: 3px solid var(--second-color);
 }
 
@@ -175,7 +197,12 @@ ul li a:hover {
 .about-clock h2{
   color: #fff;
   text-align: center;
-  margin-bottom: 1rem;
+}
+
+.borde {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
   border-bottom: 0.25rem solid #fff;
 }
 
@@ -203,7 +230,12 @@ ul li a:hover {
   }
 
   .about-clock h2 {
-    margin-bottom: 4rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .borde {
+    width: 20rem;
+    margin-bottom: 3rem;
   }
   
   .about-clock p {
