@@ -50,7 +50,7 @@ ul {
 }
 
 ul li a {
-  margin: 1rem;
+  margin: 0.03rem;
   font-weight: 600;
   letter-spacing: 1px;
   border-radius: 0.8rem;
@@ -113,7 +113,7 @@ ul li a:hover {
 
 .social {
   left: 9rem;
-  bottom: 2%;
+  bottom: 20%;
   display: flex;
   position: absolute;
 }
@@ -158,9 +158,11 @@ ul li a:hover {
 }
 
 .about-text {
+  bottom: 20%;
   display: flex;
-  align-items: flex-start;
+  text-align: center;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .Horarios {
