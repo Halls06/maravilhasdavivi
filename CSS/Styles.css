@@ -1,8 +1,9 @@
 :root {
   --main-color: #fcdfaf;
-  --second-color: #0d1b2a;
-  --text-orange: #00b4d8;
+  --second-color: #000;
   --color-whatsap: #09ff00;
+  --text-light-blue: #00b4d8;
+  --text-color-white: #ffffff;
   --color-whatsapp-dark: #035700;
 }
 
@@ -171,10 +172,17 @@ ul li a:hover {
 
 /* About Section */
 
+#About {
+  background: var(--main-color);
+}
+
 .container {
   gap: 1.5rem;
   display: flex;
+  padding: 1rem;
   margin-top:0.1rem;
+  background: #fff;
+  border-radius: 2rem;
   flex-direction: column;
 }
 
