@@ -16,14 +16,14 @@
 }
 
 section {
-  padding: 6.25rem;
+  padding: 2rem;
 }
 
 #Home {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  min-height: 100vh;
+  min-height: 70vh;
   position: relative;
   align-items: center;
   justify-content: center;
@@ -113,7 +113,7 @@ ul li a:hover {
 
 .social {
   left: 9rem;
-  bottom: 20%;
+  bottom: 8%;
   display: flex;
   position: absolute;
 }
@@ -155,7 +155,12 @@ ul li a:hover {
   margin-top: 4rem;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start ;
+  align-items: flex-start;
+}
+
+.maps iframe {
+  width: 9.375rem;
+  height: 9.375rem;
 }
 
 .about-text {
@@ -171,6 +176,14 @@ ul li a:hover {
   text-align: center;
 }
 
+.sab span {
+  color: var(--main-color);
+}
+
+.dom span {
+  color: var(--main-color);
+}
+
 .Horarios {
   margin-top: 2rem;
   align-items: center;
@@ -182,4 +195,32 @@ ul li a:hover {
   margin: 1rem;
   font-weight: 700;
   color: var(--second-color);
+}
+
+@media (min-width: 768px) {
+  
+  #Home {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .about-text p{
+    font-size: 1.3rem;
+  }
+
+  .maps iframe {
+    width: 22.125rem;
+    height: 22.125rem;
+  }
 }
