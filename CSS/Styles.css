@@ -150,79 +150,65 @@ ul li a:hover {
 /* About Section */
 
 .container {
-  gap: 0.5rem;
+  gap: 1.5rem;
   display: flex;
-  margin-top: 4rem;
+  margin-top:0.1rem;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
 }
 
-.maps iframe {
-  width: 9.375rem;
-  height: 9.375rem;
+.maps iframe{
+  border: none;
+  border-radius: 2rem;
+  margin-top: 3rem;
+  width: 18.125rem;
+  height: 18.125rem;
 }
 
-.about-text {
-  margin-top: 1rem;
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.about-text p {
-  font-size: 1rem;
-  text-align: center;
-}
-
-.about-text p span {
-  color: var(--text-orange);
-}
-
-.sab span {
-  color: var(--main-color);
-}
-
-.dom span {
-  color: var(--main-color);
-}
-
-.Horarios {
+.about-clock {
+  gap: 1.5rem;
+  padding: 1.6rem;
   margin-top: 2rem;
-  align-items: center;
-  justify-content: center;
+  border-radius: 1rem;
+  background: var(--second-color);
 }
 
-.Horarios p {
-  font-size: 1rem;
-  margin: 1rem;
-  font-weight: 700;
-  color: var(--second-color);
+.about-clock h2{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-bottom: 0.25rem solid #fff;
 }
 
-@media (min-width: 768px) {
-  #Home {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    min-height: 100vh;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-  }
+.about-clock p {
+  color: #ffffff;
+  font-size: 1.2rem;
+  text-align: center;
+}
 
+@media (min-width: 48rem) {
   .container {
+    margin-top: 3rem;
     flex-direction: row;
     align-items: flex-start;
   }
 
-  .about-text p {
-    font-size: 1.3rem;
+  .maps iframe {
+    width: 28.175rem;
+    height: 28.175rem;
   }
 
-  .maps iframe {
-    width: 22.125rem;
-    height: 22.125rem;
+  .about-clock {
+    width: 38rem;
+    height: 28rem;
+  }
+
+  .about-clock h2 {
+    margin-bottom: 4rem;
+  }
+  
+  .about-clock p {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+
   }
 }
