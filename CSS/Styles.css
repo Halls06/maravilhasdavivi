@@ -217,6 +217,10 @@ ul li a:hover {
   .about-clock p {
     margin-top: 2rem;
     font-size: 1.2rem;
+  }
 
+  .rodape p {
+    font-weight: 600;
+    text-align: center;
   }
 }
