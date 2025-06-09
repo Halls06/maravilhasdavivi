@@ -33,7 +33,7 @@ section {
 }
 
 .text h1 {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 @media (min-width: 48rem) {
@@ -41,12 +41,11 @@ section {
     margin-top: 6.5rem;
     width: 100%;
   }
-
   .image img {
     width: 10rem;
     height: 10rem;
   }
-
+  
   .text h1 {
     font-size: 1.6rem;
   }
