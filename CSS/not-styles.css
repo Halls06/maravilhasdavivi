@@ -33,7 +33,7 @@ section {
 .text {
   display: flex;
   margin-left: 2rem;
-  margin-top: 19rem;
+  margin-top: 25rem;
   position: absolute;
   flex-direction: column;
 }
