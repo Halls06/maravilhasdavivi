@@ -17,6 +17,7 @@
 }
 
 section {
+  background: var(--main-color);
   padding: 2rem;
 }
 
@@ -24,11 +25,10 @@ section {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  min-height: 70vh;
+  min-height: 100vh;
   position: relative;
   align-items: center;
   justify-content: center;
-  background: var(--main-color);
 }
 
 /* Section menu */
@@ -143,10 +143,6 @@ ul li a:hover {
 
 /* About Section */
 
-#About {
-  width: 100%;
-  background: var(--main-color);
-}
 
 .container {
   gap: 1.5rem;
