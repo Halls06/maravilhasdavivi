@@ -17,7 +17,7 @@ section {
   justify-content: center;
 }
 
-.image img{
+.image img {
   width: 12rem;
   height: 12rem;
 }
@@ -36,4 +36,10 @@ section {
   margin-left: 2rem;
   margin-top: 24rem;
   flex-direction: column;
+}
+
+@media (min-width: 48rem) {
+  .text {
+    margin-top: 19rem;
+  }
 }
