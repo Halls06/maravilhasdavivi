@@ -38,6 +38,10 @@ section {
   flex-direction: column;
 }
 
+.text span {
+  text-align: center;
+}
+
 @media (min-width: 48rem) {
   .text {
     margin-top: 19rem;
