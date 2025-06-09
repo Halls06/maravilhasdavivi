@@ -9,41 +9,45 @@ section {
   background: #fcdfaf;
 }
 
-.not-found {
-  display: flex;
+.not-page {
   width: 100%;
-  min-height: 100vh;
-  align-items: flex-start;
+  height: 100vh;
+}
+
+.image {
+  display: flex;
+  margin-top: 15rem;
+  align-items: center;
   justify-content: center;
 }
 
 .image img {
-  width: 12rem;
-  height: 12rem;
-}
-
-.image h1 {
-  display: flex;
-  position: absolute;
-  text-align: center;
-  margin-right: 10rem;
-  justify-content: center;
+  width: 10rem;
+  height: 10rem;
 }
 
 .text {
   display: flex;
-  margin-left: 0.3rem;
-  margin-top: 28rem;
-  position: absolute;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-h1 {
+.text h1 {
   font-size: 1rem;
 }
 
 @media (min-width: 48rem) {
-  .text {
-    margin-top: 19rem;
+  .image {
+    margin-top: 6.5rem;
+    width: 100%;
+  }
+
+  .image img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .text h1 {
+    font-size: 1.6rem;
   }
 }
