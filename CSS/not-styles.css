@@ -32,15 +32,14 @@ section {
 
 .text {
   display: flex;
-  position: absolute;
   margin-left: 2rem;
   margin-top: 18rem;
+  position: absolute;
   flex-direction: column;
 }
 
-.text span {
-  margin-left: 2rem;
-  text-align: center;
+.text h1 {
+  font-size: 1.2rem;
 }
 
 @media (min-width: 48rem) {
