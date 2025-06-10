@@ -85,14 +85,35 @@ body {
   }
 
   .image {
-    margin-top: 20rem;
+    margin-top: 30rem;
   }
 
   .text h1 {
     font-size: 1.2rem;
-    margin-bottom: 1rem;
   }
   
+  .rodape p {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 1080px) {
+
+  .text,
+  .image,
+  .rodape {
+    width: 100%;
+  }
+
+  .image {
+    margin-top: 30rem;
+  }
+
+  .text h1 {
+    font-size: 1.2rem;
+  }
+
   .rodape p {
     font-size: 1rem;
     font-weight: 700;
