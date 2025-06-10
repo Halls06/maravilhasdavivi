@@ -66,13 +66,8 @@ body {
 
 
 @media (min-width: 1000px) {
-  .text h1 {
-    font-size: 1rem;
-    margin-bottom: 4rem;
-  }
-
-  .image {
-    margin-top: 10rem;
+  .text, .image {
+    width: 100%;
   }
 
   .rodape p {
