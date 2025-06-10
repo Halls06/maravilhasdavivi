@@ -1,33 +1,40 @@
 * {
+  margin: 0;
   padding: 0;
-  margin: auto;
   box-sizing: border-box;
 }
 
 body {
-  background: #fcdfaf;
+  background-color: #fcdfaf;
+  font-family: sans-serif;
+  /* Sugestão: define uma fonte padrão */
 }
 
+/* Container da imagem */
 .image {
   display: flex;
-  margin-top: 13rem;
   align-items: center;
   justify-content: center;
+  margin-top: 13rem;
 }
 
+/* A imagem em si */
 .image img {
   width: 10rem;
   height: 10rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  object-fit: cover;
+  /* Garante que a imagem mantenha proporção sem esticar */
 }
 
+/* Título */
 .text h1 {
   font-size: 1rem;
   text-align: center;
+  margin-top: 1rem;
+  /* Espaço entre a imagem e o texto */
 }
 
+/* Responsividade para telas maiores */
 @media (min-width: 48rem) {
   .text h1 {
     font-size: 1.6rem;
