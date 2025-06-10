@@ -42,11 +42,12 @@ body {
 }
 
 .rodape p {
+  font-weight: 700;
   font-size: 0.5rem;
 }
 
 /* Responsividade para telas maiores */
-@media (min-width: 48rem) {
+@media (min-width: 768px) {
   .text h1 {
     font-size: 1.6rem;
   }
@@ -64,3 +65,22 @@ body {
     align-items: flex-end;
   }
 }
+
+/* @media (min-width: 1080px) {
+  .text h1 {
+    font-size: 1.6rem;
+  }
+
+  .image {
+    margin-top: 17rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rodape p {
+    display: flex;
+    font-weight: 700;
+    font-size: 1rem;
+    align-items: flex-end;
+  }
+} */
