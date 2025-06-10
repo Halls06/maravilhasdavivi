@@ -4,29 +4,18 @@
   box-sizing: border-box;
 }
 
-section {
-  padding: 6.5rem;
+body {
   background: #fcdfaf;
-}
-
-.not-page {
-  width: 100%;
-  height: 100vh;
 }
 
 .image {
   display: flex;
-  margin-top: 10rem;
-  align-items: center;
-  justify-content: center;
+  margin-top: 22rem;
 }
 
 .image img {
   width: 10rem;
   height: 10rem;
-}
-
-.text {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,19 +23,15 @@ section {
 
 .text h1 {
   font-size: 1rem;
+  text-align: center;
 }
 
 @media (min-width: 48rem) {
-  .image {
-    margin-top: 6.5rem;
-    width: 100%;
-  }
   .image img {
-    width: 10rem;
-    height: 10rem;
+    display: flex;
+    margin-top: -10rem
   }
-  
-  .text h1 {
+  .text {
     font-size: 1.6rem;
   }
 }
