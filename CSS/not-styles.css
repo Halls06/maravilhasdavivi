@@ -79,13 +79,13 @@ body {
 }
 
 /* Telas grandes (notebooks / desktops) */
-@media (min-width: 1000px) {
+@media (min-width: 37.5rem) {
   .text, .image, .rodape {
     width: 100%;
   }
 
   .image {
-    margin-top: 15rem;
+    margin-top: 10rem;
   }
 
   .text h1 {
