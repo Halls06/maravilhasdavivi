@@ -67,7 +67,6 @@ body {
 @media (min-width: 1000px) {
   .text h1 {
     font-size: 1.6rem;
-    margin-bottom: 8rem;
   }
 
   .image {
@@ -75,6 +74,7 @@ body {
   }
 
   .rodape p {
+    margin-top: 3rem;
     font-size: 1rem;
   }
 }
