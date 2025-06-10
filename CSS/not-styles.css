@@ -63,3 +63,19 @@ body {
     font-size: 0.5rem;
   }
 }
+
+
+@media (min-width: 1080px) {
+  .text h1 {
+    font-size: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .image {
+    margin-top: 3rem;
+  }
+
+  .rodape p {
+    font-size: 0.5rem;
+  }
+}
