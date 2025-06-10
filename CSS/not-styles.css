@@ -109,9 +109,10 @@ body {
   .image {
     margin-top: 25rem;
   }
-
+  
   .text h1 {
     font-size: 1.2rem;
+    margin-top: 2rem;
   }
 
   .rodape p {
