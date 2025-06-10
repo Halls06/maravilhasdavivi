@@ -7,50 +7,73 @@
 body {
   background-color: #fcdfaf;
   font-family: sans-serif;
-  min-height: 100vh;
+}
+
+/* Container da imagem */
+.image {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 1rem;
-  text-align: center;
+  justify-content: center;
+  margin-top: 20rem;
+  /* Reduzido para telas menores */
 }
 
-/* Imagem centralizada */
+/* A imagem em si */
 .image img {
-  width: 30vw;
-  max-width: 150px;
-  height: auto;
+  width: 6rem;
+  height: 6rem;
   object-fit: cover;
-  margin-bottom: 1.5rem;
 }
 
-/* Texto */
+/* Título */
 .text h1 {
-  font-size: 5vw;
-  max-width: 90%;
-  line-height: 1.4;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
   margin-bottom: 3rem;
 }
 
 /* Rodapé */
-.rodape p {
-  font-weight: 700;
-  font-size: 3vw;
-  max-width: 90%;
+.rodape {
+  margin-left: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
 }
 
-/* Ajuste para telas maiores */
-@media (min-width: 768px) {
+.rodape p {
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* Telas médias (tablets) */
+@media (min-width: 600px) {
   .text h1 {
-    font-size: 2rem;
+    font-size: 1.4rem;
+  }
+
+  .image {
+    margin-top: 3rem;
+  }
+
+  .rodape p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Telas grandes (notebooks/desktops) */
+@media (min-width: 1000px) {
+  .text h1 {
+    font-size: 1.6rem;
+  }
+
+  .image {
+    margin-top: 5rem;
   }
 
   .rodape p {
     font-size: 1rem;
-  }
-
-  .image img {
-    width: 10rem;
   }
 }
