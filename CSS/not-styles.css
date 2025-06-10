@@ -10,7 +10,9 @@ body {
 
 .image {
   display: flex;
-  margin-top: 22rem;
+  margin-top: 18rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .image img {
@@ -31,7 +33,7 @@ body {
     display: flex;
     margin-top: -10rem
   }
-  .text {
+  .text h1 {
     font-size: 1.6rem;
   }
 }
