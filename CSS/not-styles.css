@@ -30,7 +30,7 @@ body {
   font-size: 1rem;
   text-align: center;
   margin-top: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 /* Rodapé */
@@ -53,39 +53,17 @@ body {
 @media (min-width: 600px) {
 
   .text,
-  .image {
+  .imagem, .rodape {
     width: 100%;
   }
 
   .text h1 {
     font-size: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   .image {
-    margin-top: 27rem;
-  }
-
-  .rodape p {
-    font-size: 1rem;
-  }
-}
-
-
-
-
-@media (min-width: 768px) {
-  .text, .image {
-    width: 100%;
-  }
-
-  .text h1 {
-    font-size: 1rem;
-    margin-bottom: 4rem;
-  }
-
-  .image {
-    margin-top: 27rem;
+    margin-top: 5rem;
   }
 
   .rodape p {
@@ -95,17 +73,12 @@ body {
 
 /* Telas grandes (notebooks / desktops) */
 @media (min-width: 1000px) {
-  .text, .image {
+  .text, .image, .rodape {
     width: 100%;
   }
 
   .image {
-    margin-top: 10rem;
-  }
-
-  .image img {
-    width: 10rem;
-    height: 10rem;
+    margin-top: 25rem;
   }
 
   .text h1 {
@@ -113,6 +86,28 @@ body {
   }
 
   .rodape p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1366px) {
+
+  .text,
+  .image,
+  .rodape {
+    width: 100%;
+  }
+
+  .image {
+    margin-top: 20rem;
+  }
+
+  .text h1 {
+    font-size: 1rem;
+  }
+
+  .rodape p {
+    margin-bottom: 6rem;
     font-size: 1rem;
   }
 }
