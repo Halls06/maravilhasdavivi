@@ -14,7 +14,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20rem;
+  margin-top: 15rem;
   /* Reduzido para telas menores */
 }
 
@@ -56,26 +56,10 @@ body {
   }
 
   .image {
-    margin-top: 15rem;
+    margin-top: 3rem;
   }
 
   .rodape p {
     font-size: 0.5rem;
-  }
-}
-
-/* Telas grandes (notebooks/desktops) */
-@media (min-width: 1000px) {
-  .text h1 {
-    font-size: 1rem;
-  }
-
-  .image {
-    margin-top: 5rem;
-  }
-
-  .rodape p {
-    margin-top: 3rem;
-    font-size: 1rem;
   }
 }
