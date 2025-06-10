@@ -50,7 +50,7 @@ body {
 
 /* Telas médias (tablets) */
 
-@media (min-width: 600px) {
+@media (min-width: 37.5rem) {
 
   .text,
   .imagem, .rodape {
@@ -87,11 +87,6 @@ body {
   .image {
     margin-top: 50rem;
   }
-
-  .image {
-    margin-top: 10rem;
-  }
-
 
   .text h1 {
     font-size: 1.2rem;
