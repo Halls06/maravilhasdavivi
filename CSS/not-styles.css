@@ -79,7 +79,7 @@ body {
 }
 
 /* Telas grandes (notebooks / desktops) */
-@media (min-width: 62.5rem) {
+@media (min-width: 1050px) {
   .text, .image, .rodape {
     width: 100%;
   }
