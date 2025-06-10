@@ -49,7 +49,7 @@ body {
 }
 
 /* Telas médias (tablets) */
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .text, .image {
     width: 100%;
   }
