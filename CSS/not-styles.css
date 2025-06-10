@@ -9,29 +9,26 @@ body {
   font-family: sans-serif;
   /* Sugestão: define uma fonte padrão */
 }
-section {
-  padding: -10rem;
-}
 
 /* Container da imagem */
 .image {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 15rem;
+  margin-top: 5rem;
 }
 
 /* A imagem em si */
 .image img {
-  width: 10rem;
-  height: 10rem;
+  width: 6rem;
+  height: 6rem;
   object-fit: cover;
   /* Garante que a imagem mantenha proporção sem esticar */
 }
 
 /* Título */
 .text h1 {
-  font-size: 1rem;
+  font-size: 0.5rem;
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 5rem;
@@ -39,7 +36,7 @@ section {
 }
 
 .rodape {
-  margin-left: -1.5rem;
+  margin-left: 0.2rem;
   display: flex;
   margin-top: 4rem;
   align-items: center;
