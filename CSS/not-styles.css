@@ -74,6 +74,15 @@ body {
     margin-top: 10rem;
   }
 
+  .image img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .text h1 {
+    font-size: 1.2rem;
+  }
+
   .rodape p {
     font-size: 1rem;
   }
