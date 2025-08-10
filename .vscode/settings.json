@@ -19,7 +19,7 @@
 
   "workbench.editor.enablePreview": true,
   "workbench.iconTheme": "symbols",
-  "workbench.colorTheme": "Lunar Pink",
+  "workbench.colorTheme": "Lunar Eclipse",
 
   // prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",
