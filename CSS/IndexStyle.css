@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor-texto: #fff;
+  --background-color: rgb(48, 23, 38);  --strock-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.1);
+  --surface-color-hover: rgba(255, 255, 255, 0.05);
+  --highlight-color: rgba(255, 255, 255, 0.2);
+}
+
+body {
+  margin: 100px;
+  height: 100vh;
+  background: var(--background-color);
+}
+
+body * {
+  font-family: sans-serif;
+  color: var(--cor-texto);
+}
+
+#Container {
+  width: 100%;
+  max-height: 580px;
+  padding: 0 24px;
+  margin: 56px auto 0px;
+}
+
+
+#Profile {
+  text-align: center;
+}
+
+#Profile img {
+  width: 120px;
+}
+
+#Profile p {
+  margin: 10px auto;
+  font-weight: 580;
+  line-height: 24px;
+}
+
+ul { 
+gap: 16px;
+display: flex;
+list-style: none;
+padding:  24px 0px;
+align-items: center;
+flex-direction: column;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  padding: 16px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+  background: var(--surface-color);
+  border: 1px solid var(--strock-color);
+  -webkit-backdrop-filter: blur(4px);
+  font-weight: 500;
+  transition: nackground 0.2s;
+}
+
+ul li a:Hover {
+  background: var(--surface-color-hover);
+  border: 1.5px solid var(--cor-texto)
+}
