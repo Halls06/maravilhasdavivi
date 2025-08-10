@@ -73,3 +73,11 @@ ul li a:Hover {
   background: var(--surface-color-hover);
   border: 1.5px solid var(--cor-texto)
 }
+
+#SocialLinks .whats {
+  color: green;
+}
+
+#SocialLinks .insta {
+  color: #e1306c;
+}
