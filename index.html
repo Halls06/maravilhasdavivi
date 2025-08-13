@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br" class="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +9,10 @@
 <body>
   <div id="Container">
     <div id="Profile">
-      <img src="./assets/logo-maravilhafsvivi.png" alt="">
+      <img src="./assets/logo-maravilhasvivi.png" alt="">
       <p>@Maravilhas_Da.Vivi</p>
     </div>
-    <div id="Switch">
+    <div id="Switch" onclick="toggleMode()">
       <button></button>
       <span></span>
     </div>
@@ -25,10 +25,15 @@
       </li>
     </ul>
     <div id="SocialLinks">
-      <ion-icon class="insta" name="logo-instagram"></ion-icon>
-      <ion-icon class="whats" name="logo-whatsapp"></ion-icon>
+      <a href="#">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+      <a href="#">
+        <ion-icon name="logo-whatsapp"></ion-icon>
+      </a>
     </div>
   </div>
   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>
