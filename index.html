@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="light">
+<html lang="pt-br" class=".light">
 <head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./CSS/IndexStyle.css">
-  <title>maravilhas da Vivi</title>
+  <link rel="stylesheet" href="./Css/Style.css">
+  <title>Maravilhas da Vivi</title>
 </head>
 <body>
-  <div id="Container">
+  <div id="container">
     <div id="Profile">
-      <img src="./assets/logo-maravilhasvivi.png" alt="">
-      <p>@Maravilhas_Da.Vivi</p>
+      <img src="./assets/logo-maravilhasvivi.png" alt="image de um bolo caseiro feito com muito carinho acompanhado de uma coxinha e flores ao lado">
+      <p>@maravilhas_Da.vivi</p>
     </div>
     <div id="Switch" onclick="toggleMode()">
       <button></button>
@@ -18,22 +21,26 @@
     </div>
     <ul>
       <li>
-        <a href="#">Faça o seu pedido</a>
+        <a href="https://wa.me/13997664425?text=Olá%2c%20gostaria%20de%20fazer%20o%20meu%20pedido" target="_blank" noopener noreferrer>Faça seu pedido</a>
       </li>
       <li>
-        <a href="#">Cadarpio</a>
+          <a href="#">Cardapio</a>
+      </li>
+      <li>
+        <a href="#">Mais-informaçoes</a>
       </li>
     </ul>
-    <div id="SocialLinks">
-      <a href="#">
+     <div id="SocialLinks">
+      <a href="#" target="_blank" noopener noreferrer>
         <ion-icon name="logo-instagram"></ion-icon>
       </a>
-      <a href="#">
+      <a href="https://wa.me/13997664425?text=Quero20%fazer20%meu20%pedido" target="_blank" rel="noopener" noreferrer>
         <ion-icon name="logo-whatsapp"></ion-icon>
       </a>
-    </div>
+    </div> 
   </div>
-  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <script src="./js/script.js"></script>
 </body>
 </html>
