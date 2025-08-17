@@ -7,11 +7,11 @@
 :root {
   --cor-texto: #fff;
   --bg-url: url(../assets/bg-Desktop.jpg);
-    --strock-color: rgba(255, 255, 255, 0.5);
-      --surface-color: rgba(255, 255, 255, 0.1);
-      --surface-color-hover: rgba(255, 255, 255, 0.05);
-      --highlight-color: rgba(255, 255, 255, 0.2);
-      --switch-br-url: url(../assets/moon-stars.svg);
+  --strock-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.1);
+  --surface-color-hover: rgba(255, 255, 255, 0.05);
+  --highlight-color: rgba(255, 255, 255, 0.2);
+  --switch-br-url: url(../assets/moon-stars.svg);
 }
 
 .light {
@@ -25,7 +25,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 100dvh;
   margin-top: 6.3rem;
   background: var(--bg-url);
 }
@@ -124,7 +124,7 @@ ul li a:hover {
 }
 
 #SocialLinks {
-   display: flex;
+  display: flex;
   justify-content: center;
   padding: 1.5rem 5.5rem;
   font-size: 1.5rem;
@@ -144,27 +144,28 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 
-@media (max-width: 86.25rem) {
-  #SocialLinks {
-    display: flex;
-    padding: 2.5rem 35rem;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 780px) {
+@media (max-width: 85.75rem) {
   #SocialLinks {
     display: flex;
     font-size: 1.5rem;
-    padding: 2rem 5.5rem;
-    justify-content: center;
+    padding: 1.5rem 30rem;
+  }
+}
+
+@media (max-width: 56.25rem) {
+  #SocialLinks {
+    display: flex;
+    font-size: 1.5rem;
+    padding: 1.5rem 5rem;
   }
 }
 
 @keyframes slide-out {
   from {
     left: 50%;
-  } to {
+  }
+
+  to {
     left: 0;
   }
 }
@@ -172,7 +173,9 @@ ul li a:hover {
 @keyframes slide-in {
   from {
     left: 0;
-  }to {
+  }
+
+  to {
     left: 50%;
   }
 }
